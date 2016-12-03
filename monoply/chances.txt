@@ -1,0 +1,55 @@
+1 Advance to Go (Collect $200)
+2 Advance to Trafalagur Square - If you pass Go, collect $200
+3 Advance to Paul mall – If you pass Go, collect $200
+4 Go Back 3 Spaces
+5 Go to Jail – Go directly to Jail
+6 Pay poor tax of $15
+7 You have won a crossword competition - Collect $100
+8 Your building {and} loan matures – Collect $150
+
+
+struct chance
+ {
+ 	int no;
+ 	int st[100];
+ }chance[8];
+ 
+ 
+ 
+ 
+ strcpy(chance[0].st,"Advance to Go (Collect $200)");
+ strcpy(chance[1].st,"Advance to Trafalagur Square - If you pass Go, collect $200");
+ strcpy(chance[2].st,"Advance to Paul mall – If you pass Go, collect $200");
+ strcpy(chance[3].st,"Go Back 3 Spaces");
+ strcpy(chance[4].st,"Go to Jail – Go directly to Jail");
+ strcpy(chance[5].st,"Pay poor tax of $15");
+ strcpy(chance[6].st,"You have won a crossword competition - Collect $100");
+ strcpy(chance[7].st,"Your building {and} loan matures – Collect $150");
+
+
+
+
+
+
+struct comm
+ {
+ 	int no;
+ 	int st[100];
+ }comm[11];
+ 
+ 
+ 
+ 
+ strcpy(comm[0].st,"You inherit $100");
+ strcpy(comm[1].st,"Advance to Go (Collect");
+ strcpy(comm[2].st,"Bank error in your favor – Collect $200");
+ strcpy(comm[3].st,"Doctor's fees {fee} – Pay $50");
+ strcpy(comm[4].st,"Go to Jail – Go directly to jail ");
+ strcpy(comm[5].st,"Holiday {Xmas} Fund matures - Receive {Collect} $100 ");
+ strcpy(comm[6].st,"Income tax refund – Collect $20");
+ strcpy(comm[7].st,"Life insurance matures – Collect $100");
+ strcpy(comm[8].st,"Pay hospital fees of $100");
+ strcpy(comm[9].st,"Pay school fees {tax} of $150");
+ strcpy(comm[10].st,"Receive $25 consultancy fee");
+ 
+ 
